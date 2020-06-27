@@ -1,8 +1,8 @@
 # 머니 뿌리기 프로그램
 
-POST '/api/money-sprinkle'  [머니 뿌리기]
-PUT  '/api/money-distribution/{token}' [token의 뿌리기 건에서 머니 받기]
-GET  '/api/money-sprinkle/{token}'    [token의 뿌리기 건 조회]
+1. POST '/api/money-sprinkle'  [머니 뿌리기]
+2. PUT  '/api/money-distribution/{token}' [token의 뿌리기 건에서 머니 받기]
+3. GET  '/api/money-sprinkle/{token}'    [token의 뿌리기 건 조회]
 
 <3자리의 임의의 문자열로 token 만들기>
 1. 대문자, 소문자 중 random 문자를 선택해 이어붙여 3자리의 문자열이 되면 token 완성
