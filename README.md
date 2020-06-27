@@ -4,7 +4,7 @@ jar 파일 다운로드 : https://github.com/JiONi/moneysprinkle/blob/master/mon
 local 접속 정보 : localhost:8080
 
 api 목록
-1. POST '/api/money-sprinkle'  [머니 뿌리기]
+1. POST '/api/money-sprinkle' parameters : [머니 뿌리기] {"moneyAmount":monayAmount, "person":person} 
 2. PUT  '/api/money-distribution/{token}' [token의 뿌리기 건에서 머니 받기]
 3. GET  '/api/money-sprinkle/{token}'    [token의 뿌리기 건 조회]
 
