@@ -4,9 +4,9 @@ jar 파일 다운로드 : https://github.com/JiONi/moneysprinkle/blob/master/mon
 local 접속 정보 : localhost:8080
 
 api 목록
-1. POST '/api/money-sprinkle' parameters : [머니 뿌리기] {"moneyAmount":monayAmount, "person":person} 
-2. PUT  '/api/money-distribution/{token}' [token의 뿌리기 건에서 머니 받기]
-3. GET  '/api/money-sprinkle/{token}'    [token의 뿌리기 건 조회]
+1. POST '/api/money-sprinkle' parameters : [뿌리기 API] {"moneyAmount":monayAmount, "person":person} 
+2. PUT  '/api/money-distribution/{token}' [받기 API]
+3. GET  '/api/money-sprinkle/{token}'    [조회 API]
 
 <3자리의 임의의 문자열로 token 만들기>
 1. 대문자, 소문자 중 random 문자를 선택해 이어붙여 3자리의 문자열이 되면 token 완성
